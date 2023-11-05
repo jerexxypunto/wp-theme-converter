@@ -1,4 +1,4 @@
-# WP Theme Converter
+# HTML Template to WP Theme Converter
 
 
 ## Primer paso
