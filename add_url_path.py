@@ -10,6 +10,7 @@ def replace_href_in_file(contenido, findType):
     pattern1 = fr'(href="{findType})'
     repl = fr'href="<?php echo get_template_directory_uri(); ?>/{findType}'
     contenido = re.sub(pattern1, repl, contenido)
+    print( repl )
     return contenido
 
 def replace_src_in_file(contenido, findType):
